@@ -7,11 +7,12 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "postinstall": "npm rebuild esbuild"
   },
   "dependencies": {
     "esbuild": "^0.25.11",
-    "node": "^25.0.0",
+    "node": "18.x",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
